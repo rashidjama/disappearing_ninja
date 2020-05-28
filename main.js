@@ -1,9 +1,9 @@
-$("document").ready(function() {
-  $("img").click(function() {
+$("document").ready(function () {
+  $("img").click(function () {
     $(this).hide();
   });
 
-  $("#restore").click(function() {
+  $("#restore").click(function () {
     $("img").show();
   })
 })
